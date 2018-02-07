@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com-ex1-sample-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/com-ex1-sample-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
