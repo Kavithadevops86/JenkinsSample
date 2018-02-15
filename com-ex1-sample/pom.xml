@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
 
   <name>com-ex1-sample</name>
-  <url>http://maven.apache.org</url>
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,7 +26,7 @@
     <repository>
         <id>central</id>
         <name>kavithadevops-releases</name>
-        <url>https://kavithadevops.jfrog.io/kavithadevops/AutomationPipeline</url>
+        <url>https://kavithadevops.jfrog.io/kavithadevops/devops</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
