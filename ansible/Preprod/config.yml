@@ -1,0 +1,28 @@
+---
+- name: ensure android dependencies are installed across the android-slaves
+  hosts: preprod
+  sudo: yes
+  roles:
+  - tools-android-dependencies
+
+- name: ensure ansible is installed across the ansible-slaves
+  hosts: preprod
+  sudo: yes
+  roles:
+  - tools-ansible
+---
+- name: ensure docker is installed across the docker-slaves
+  hosts: preprod
+  roles:
+  - tools-docker
+
+- name: ensure git is installed across the git-slaves
+  hosts: preprod
+  roles:
+  - tools-git
+
+- name: ensure ksh is installed across the ksh-slaves
+  hosts: preprod
+  roles:
+  - tools-ksh
+

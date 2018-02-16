@@ -1,0 +1,5 @@
+---
+- hosts: preprod
+  remote_user: default
+  roles:
+    - preprod
